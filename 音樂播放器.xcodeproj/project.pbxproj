@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		A221FCB12A72BAF400639E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221FCB02A72BAF400639E40 /* AppDelegate.swift */; };
 		A221FCB32A72BAF400639E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221FCB22A72BAF400639E40 /* SceneDelegate.swift */; };
-		A221FCB52A72BAF400639E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221FCB42A72BAF400639E40 /* ViewController.swift */; };
 		A221FCB82A72BAF400639E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A221FCB62A72BAF400639E40 /* Main.storyboard */; };
 		A221FCBA2A72BAF700639E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A221FCB92A72BAF700639E40 /* Assets.xcassets */; };
 		A221FCBD2A72BAF700639E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A221FCBB2A72BAF700639E40 /* LaunchScreen.storyboard */; };
+		A221FCC52A72BB1900639E40 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221FCC42A72BB1900639E40 /* homePageViewController.swift */; };
+		A221FCC72A72BB2D00639E40 /* musicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221FCC62A72BB2D00639E40 /* musicViewController.swift */; };
+		A22FA3692A73988E00E89C90 /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22FA3682A73988E00E89C90 /* ChenYuluoyan-Thin.ttf */; };
+		A22FA3712A73A93200E89C90 /* NIGHT_DANCER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22FA3702A73A93200E89C90 /* NIGHT_DANCER.mp3 */; };
+		A22FA3732A73ABD000E89C90 /* Stay_With_Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22FA3722A73ABCF00E89C90 /* Stay_With_Me.mp3 */; };
+		A22FA3752A73AC2A00E89C90 /* golden_hour.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22FA3742A73AC2900E89C90 /* golden_hour.mp3 */; };
+		A2530B8A2A77FA200073B5BA /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2530B892A77FA200073B5BA /* struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A221FCAD2A72BAF400639E40 /* 音樂播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音樂播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A221FCB02A72BAF400639E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A221FCB22A72BAF400639E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A221FCB42A72BAF400639E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A221FCB72A72BAF400639E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A221FCB92A72BAF700639E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A221FCBC2A72BAF700639E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A221FCBE2A72BAF700639E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A221FCC42A72BB1900639E40 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		A221FCC62A72BB2D00639E40 /* musicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicViewController.swift; sourceTree = "<group>"; };
+		A22FA3682A73988E00E89C90 /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
+		A22FA3702A73A93200E89C90 /* NIGHT_DANCER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NIGHT_DANCER.mp3; sourceTree = "<group>"; };
+		A22FA3722A73ABCF00E89C90 /* Stay_With_Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stay_With_Me.mp3; sourceTree = "<group>"; };
+		A22FA3742A73AC2900E89C90 /* golden_hour.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golden_hour.mp3; sourceTree = "<group>"; };
+		A2530B892A77FA200073B5BA /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				A221FCB02A72BAF400639E40 /* AppDelegate.swift */,
 				A221FCB22A72BAF400639E40 /* SceneDelegate.swift */,
-				A221FCB42A72BAF400639E40 /* ViewController.swift */,
+				A221FCC42A72BB1900639E40 /* homePageViewController.swift */,
+				A221FCC62A72BB2D00639E40 /* musicViewController.swift */,
+				A2530B892A77FA200073B5BA /* struct.swift */,
 				A221FCB62A72BAF400639E40 /* Main.storyboard */,
 				A221FCB92A72BAF700639E40 /* Assets.xcassets */,
 				A221FCBB2A72BAF700639E40 /* LaunchScreen.storyboard */,
 				A221FCBE2A72BAF700639E40 /* Info.plist */,
+				A22FA3682A73988E00E89C90 /* ChenYuluoyan-Thin.ttf */,
+				A22FA3702A73A93200E89C90 /* NIGHT_DANCER.mp3 */,
+				A22FA3722A73ABCF00E89C90 /* Stay_With_Me.mp3 */,
+				A22FA3742A73AC2900E89C90 /* golden_hour.mp3 */,
 			);
 			path = "音樂播放器";
 			sourceTree = "<group>";
@@ -125,8 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22FA3752A73AC2A00E89C90 /* golden_hour.mp3 in Resources */,
+				A22FA3732A73ABD000E89C90 /* Stay_With_Me.mp3 in Resources */,
 				A221FCBD2A72BAF700639E40 /* LaunchScreen.storyboard in Resources */,
+				A22FA3692A73988E00E89C90 /* ChenYuluoyan-Thin.ttf in Resources */,
 				A221FCBA2A72BAF700639E40 /* Assets.xcassets in Resources */,
+				A22FA3712A73A93200E89C90 /* NIGHT_DANCER.mp3 in Resources */,
 				A221FCB82A72BAF400639E40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A221FCB52A72BAF400639E40 /* ViewController.swift in Sources */,
+				A221FCC72A72BB2D00639E40 /* musicViewController.swift in Sources */,
+				A221FCC52A72BB1900639E40 /* homePageViewController.swift in Sources */,
 				A221FCB12A72BAF400639E40 /* AppDelegate.swift in Sources */,
+				A2530B8A2A77FA200073B5BA /* struct.swift in Sources */,
 				A221FCB32A72BAF400639E40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
