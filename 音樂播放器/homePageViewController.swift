@@ -6,8 +6,6 @@
 //
 
 import UIKit
-//載入AVFoundation函式庫(framework)
-import AVFoundation
 
 
 class homePageViewController: UIViewController {
